@@ -1,0 +1,12 @@
+<Project>
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <CentralPackageVersionOverrideEnabled>true</CentralPackageVersionOverrideEnabled>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageVersion Include="RestSharp" Version="112.1.0" />
+    <PackageVersion Include="System.Text.Json" Version="9.0.0" />
+    <GlobalPackageReference Include="Serilog" Version="4.2.0" />
+  </ItemGroup>
+</Project>
+

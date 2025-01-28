@@ -1,0 +1,11 @@
+<Project>
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <CentralPackageVersionOverrideEnabled>true</CentralPackageVersionOverrideEnabled>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageVersion Include="RestSharp" Version="112.1.0" />
+    <PackageVersion Include="System.Text.Json" Version="8.0.0" />
+  </ItemGroup>
+</Project>
+
